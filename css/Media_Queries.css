@@ -5,6 +5,9 @@
     .header {
         padding-bottom: 17px;
     }
+    nav {
+        padding: 15px 0;
+    }
     .footer__phone-link {
         margin: 10px auto 0;
     }
@@ -15,6 +18,12 @@
 
 /* 768 - 992 px */
 @media screen and (max-width: 992px) {
+    nav {
+        padding: 10px 0;
+    }
+    .btn {
+        box-shadow: none;
+    }
     .header {
         padding-bottom: 17px;
     }
@@ -36,7 +45,7 @@
 }
 
 /* 576 - 768 px */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {   
     .navigation {
         justify-content: center;
     }
@@ -67,7 +76,9 @@
 
 /* 320 - 576 px */
 @media screen and (max-width: 576px) {
-    
+    .offer__title {
+        font-size: 40px;
+    }
     .navigation {
         flex-direction: column;
     }

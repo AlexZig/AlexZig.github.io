@@ -37,12 +37,17 @@
         <nav class="fadeInDown animated">
             <div class="container">
                 <div class="row d-flex aic">
-                    <div class="col-5 col-md-4 col-lg-4 mx-lg-auto col-xl-4 aic">
+                    <div class="col-1 col-sm-1 d-lg-none">
+                        <button class="menu-open">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                      </div>
+                    <div class="col-9 ml-4 col-md-5 col-lg-3 mx-lg-auto col-xl-4 aic">
                         <a href="./index.html" class="home">
                             <img class="header-logo" src="./img/Home/Logo.png" alt="LAB Consulting">
                         </a>
                     </div>
-                    <div class="d-none d-lg-block col-lg-12 col-xl-6">
+                    <div class="d-none d-lg-block col-lg-7 col-xl-6">
                         <div class="nav d-block">
                             <ul class="menu d-flex aic jcsb">
                                 <li class="menu__item">
@@ -73,8 +78,8 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-5 col-sm-7 col-lg-2 mx-lg-auto col-xl-2 aic">
-                        <a href="#" class="header__phone-link btn ml-auto">
+                    <div class="mx-auto col-10 col-md-5 col-sm-7 col-lg-2 col-xl-2 aic">
+                        <a href="#" class="header__phone-link btn mx-auto">
                             <i class="fas fa-phone"></i>
                             Заказать звонок
                         </a>
@@ -464,9 +469,41 @@
             </div>
         </div>
     </footer>
-    <!-- Modal -->
+    <!------------ Modal ----------->    
+    <!------------ Nav ----------->
     <div style="display: none;">
-        <div class="box-modal_close arcticmodal-close">Закрыть</div>
+        <div class="fadeInLeft animated nav-open d-block" id="navModal">
+            <ul class="nav-open__menu d-bloc">
+                <li class="nav-open__item">
+                    <a href="About.html" class="nav-open__link">
+                        О компании
+                    </a>
+                </li>
+                <li class="nav-open__item">
+                    <a href="#" class="nav-open__link">
+                        Пресс-центр
+                    </a>
+                </li>
+                <li class="nav-open__item">
+                    <a href="Servises.html" class="nav-open__link">
+                        Услуги
+                    </a>
+                </li>
+                <li class="nav-open__item">
+                    <a href="#" class="nav-open__link">
+                        Отрасли 
+                    </a>
+                </li>
+                <li class="nav-open__item">
+                    <a href="Contacts.html" class="nav-open__link">
+                        Контакты 
+                    </a>
+                </li>
+            </ul>
+        </div>        
+    </div>
+    <!------------ Form ----------->
+    <div style="display: none;">
         <form action="#" class="form-popup box-modal" id="exampleModal">
             <img class="form-icon" src="./img/Icon.png" alt="">
             <h4 class="form__title">
@@ -487,9 +524,8 @@
     <script src="./js/jquery-ui.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/parallax-bg.js"></script>
-    <script src="./js/lightbox.min.js"></script>
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
     <script src="./js/jquery.arcticmodal-0.3.min.js"></script>
-    <script src="./js/main.js"></script>   
+    <script src="./js/main.js"></script> 
 </body>
 </html>

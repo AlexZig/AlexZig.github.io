@@ -77,13 +77,16 @@ $(function(){
 
     // Всплывающее окно
 
-    // Всплывающее окно
-
     $('.footer__phone-link, .header__phone-link').click(function (e) {
         e.preventDefault();
         $('#exampleModal').arcticmodal();
     })
+    $('.menu-open').click(function (e) {
+        e.preventDefault();
+        $('#navModal').arcticmodal();
+    })
 
+    //Разворот картинок
 
     lightbox.option({
         'resizeDuration': 200,
