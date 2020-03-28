@@ -85,8 +85,9 @@ $(function(){
     })
 
 
-    //$('.footer__phone-link').click(function () {
-       // $('#exampleModal').arcticmodal();
-   // })
+    lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true
+      })
 
 });
